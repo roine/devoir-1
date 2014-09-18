@@ -22,3 +22,9 @@ Recapitulatif:
  - un boutton de suppression
  - le total de place et le total de participant
  - un boutton pour participer/ne plus participer
+
+Bonus:
+
+- Responsive et fluide
+- data persistant
+- ton propre design
