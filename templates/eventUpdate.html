@@ -1,0 +1,20 @@
+<form ng-submit="save(event)">
+    <input name="id" type="hidden" value="{{event.id}}"/>
+
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" name="title" ng-model="event.title" class="form-control" id="title" placeholder="Your title">
+    </div>
+    <div class="form-group">
+        <label for="content">Content</label>
+        <textarea class="form-control" name="content" id="content" cols="30" rows="5" placeholder="Your content" ng-model="event.content">
+        </textarea>
+    </div>
+    <div class="form-group">
+        <label for="maxAttendant">Max Attendant</label>
+        <input type="number" class="form-control" name="maxAttendant" id="maxAttendant" placeholder="Max attendant to your event" ng-model="event.maxAttendant"/>
+    </div>
+    <button class="btn btn-primary" type="submit">Save</button>
+</form>
+<div ng-if="success">Success</div>
+<div ng-if="failed">Failed</div>

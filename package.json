@@ -1,0 +1,18 @@
+{
+  "name": "devoir-1",
+  "version": "0.0.0",
+  "description": "## Event planner Tu es un organisateur d’evenement. Tu as donc besoin de manipuler des événements (CRUD) et tu as aussi besoin de savoir combien de personnes seront la.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roine/devoir-1.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/roine/devoir-1/issues"
+  }
+}
